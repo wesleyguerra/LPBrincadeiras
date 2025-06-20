@@ -1,4 +1,4 @@
-/* Reset e configurações básicas */
+/* Reset e configuraÃ§Ãµes bÃ¡sicas */
 * {
     margin: 0;
     padding: 0;
@@ -112,7 +112,7 @@ body {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
-/* Botões CTA */
+/* BotÃµes CTA */
 .cta-button {
     display: inline-block;
     padding: 20px 40px;
@@ -146,7 +146,7 @@ body {
     font-size: 1.3rem;
 }
 
-/* Otimização específica para mobile */
+/* OtimizaÃ§Ã£o especÃ­fica para mobile */
 .cta-button.mobile-optimized {
     padding: 18px 30px;
     font-size: 1.1rem;
@@ -176,7 +176,7 @@ body {
     left: 100%;
 }
 
-/* Seção de Introdução */
+/* SeÃ§Ã£o de IntroduÃ§Ã£o */
 .intro-section {
     padding: 0 0 60px 0;
     background: #f8f9fa;
@@ -232,7 +232,7 @@ body {
     color: #667eea;
 }
 
-/* Seção Para quem é indicado */
+/* SeÃ§Ã£o Para quem Ã© indicado */
 .target-section {
     padding: 80px 0;
     background: white;
@@ -307,7 +307,7 @@ body {
     color: #667eea;
 }
 
-/* Seção do Produto */
+/* SeÃ§Ã£o do Produto */
 .product-section {
     padding: 80px 0;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -369,7 +369,7 @@ body {
     color: #ffecd2;
 }
 
-/* Seção de Preço */
+/* SeÃ§Ã£o de PreÃ§o */
 .pricing-section {
     padding: 80px 0;
     background: #f8f9fa;
@@ -448,7 +448,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Seção de Bônus */
+/* SeÃ§Ã£o de BÃ´nus */
 .bonus-section {
     padding: 80px 0;
     background: white;
@@ -530,7 +530,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Seção de Depoimentos */
+/* SeÃ§Ã£o de Depoimentos */
 .testimonials-section {
     padding: 80px 0;
     background: #f8f9fa;
@@ -666,7 +666,7 @@ body {
     line-height: 1.6;
 }
 
-/* Seção de Garantia */
+/* SeÃ§Ã£o de Garantia */
 .guarantee-section {
     padding: 80px 0;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -703,7 +703,7 @@ body {
     opacity: 0.9;
 }
 
-/* Seção Sobre a Autora */
+/* SeÃ§Ã£o Sobre a Autora */
 .author-section {
     padding: 80px 0;
     background: #f8f9fa;
@@ -960,7 +960,7 @@ body {
     }
 }
 
-/* Ajustes específicos para garantir que o botão fique na primeira dobra */
+/* Ajustes especÃ­ficos para garantir que o botÃ£o fique na primeira dobra */
 @media (max-width: 768px) {
     .hero-section {
         min-height: auto;
@@ -993,4 +993,3 @@ body {
         margin-bottom: 15px;
     }
 }
-
