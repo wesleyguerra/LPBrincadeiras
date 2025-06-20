@@ -146,6 +146,16 @@ body {
     font-size: 1.3rem;
 }
 
+/* Otimização específica para mobile */
+.cta-button.mobile-optimized {
+    padding: 18px 30px;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    max-width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
 .cta-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.3);
@@ -678,6 +688,7 @@ body {
 .guarantee-img {
     width: 150px;
     height: 150px;
+    object-fit: contain;
 }
 
 .guarantee-text h2 {
@@ -815,6 +826,7 @@ body {
         text-align: center;
         display: block;
         margin: 10px auto;
+        max-width: 90%;
     }
     
     .cta-button.large {
@@ -823,6 +835,14 @@ body {
         text-align: center;
         display: block;
         margin: 10px auto;
+        max-width: 90%;
+    }
+    
+    .cta-button.mobile-optimized {
+        padding: 16px 25px;
+        font-size: 1rem;
+        max-width: 95%;
+        margin: 15px auto;
     }
     
     .promo-banner p {
@@ -831,6 +851,7 @@ body {
     
     .hero-section {
         text-align: center;
+        padding: 40px 0;
     }
     
     .intro-section {
@@ -904,45 +925,72 @@ body {
         text-align: center;
         display: block;
         margin: 10px auto;
+        padding: 14px 20px;
+        font-size: 0.9rem;
+        max-width: 95%;
     }
     
     .cta-button.large {
         text-align: center;
         display: block;
         margin: 10px auto;
+        padding: 16px 25px;
+        font-size: 1rem;
+        max-width: 95%;
+    }
+    
+    .cta-button.mobile-optimized {
+        padding: 14px 20px;
+        font-size: 0.95rem;
+        max-width: 98%;
+        margin: 15px auto;
+        line-height: 1.2;
+    }
+    
+    .hero-section {
+        padding: 30px 0;
+    }
+    
+    .hero-image {
+        margin: 20px 0;
+    }
+    
+    .hero-img {
+        max-width: 90%;
     }
 }
 
-/* Ajustes para o botão CTA na primeira dobra em mobile */
+/* Ajustes específicos para garantir que o botão fique na primeira dobra */
 @media (max-width: 768px) {
-    .hero-content .cta-button.primary {
-        padding: 15px 25px; /* Reduz o padding */
-        font-size: 1rem; /* Reduz o tamanho da fonte */
-        max-width: 90%; /* Limita a largura para não ficar muito grande */
-        margin: 20px auto; /* Centraliza e adiciona margem */
+    .hero-section {
+        min-height: auto;
+        padding: 30px 0 40px 0;
+    }
+    
+    .hero-content {
+        padding-bottom: 20px;
+    }
+    
+    .hero-cta-text {
+        margin: 20px 0 15px 0;
+        font-size: 1.3rem;
+    }
+    
+    .cta-button.mobile-optimized {
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
 }
 
-/* Ajustes para o selo de garantia */
-.guarantee-img {
-    width: 120px; /* Ajusta o tamanho do selo */
-    height: 120px;
+@media (max-width: 480px) {
+    .hero-cta-text {
+        margin: 15px 0 10px 0;
+        font-size: 1.1rem;
+    }
+    
+    .cta-button.mobile-optimized {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
 }
-
-/* Ajustes para as imagens dos depoimentos */
-.testimonial-avatar .avatar-img {
-    width: 80px; /* Aumenta o tamanho da imagem do avatar */
-    height: 80px;
-}
-
-/* Ajustes para o texto dos depoimentos */
-.testimonial-content p {
-    font-size: 0.95rem; /* Ajusta o tamanho da fonte para melhor leitura */
-}
-
-/* Ajustes para o ícone "Tô entediado" */
-.target-card h3 i.fas.fa-frown {
-    margin-right: 5px; /* Adiciona um pequeno espaço entre o ícone e o texto */
-}
-
 
