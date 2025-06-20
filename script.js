@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
     // Smooth scroll para links internos
-    const internalLinks = document.querySelectorAll("a[href^="#"]");
+    const internalLinks = document.querySelectorAll("a[href^=\"#\"]");
     
     internalLinks.forEach(link => {
         link.addEventListener("click", function(e) {
