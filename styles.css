@@ -913,4 +913,36 @@ body {
     }
 }
 
+/* Ajustes para o botão CTA na primeira dobra em mobile */
+@media (max-width: 768px) {
+    .hero-content .cta-button.primary {
+        padding: 15px 25px; /* Reduz o padding */
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+        max-width: 90%; /* Limita a largura para não ficar muito grande */
+        margin: 20px auto; /* Centraliza e adiciona margem */
+    }
+}
+
+/* Ajustes para o selo de garantia */
+.guarantee-img {
+    width: 120px; /* Ajusta o tamanho do selo */
+    height: 120px;
+}
+
+/* Ajustes para as imagens dos depoimentos */
+.testimonial-avatar .avatar-img {
+    width: 80px; /* Aumenta o tamanho da imagem do avatar */
+    height: 80px;
+}
+
+/* Ajustes para o texto dos depoimentos */
+.testimonial-content p {
+    font-size: 0.95rem; /* Ajusta o tamanho da fonte para melhor leitura */
+}
+
+/* Ajustes para o ícone "Tô entediado" */
+.target-card h3 i.fas.fa-frown {
+    margin-right: 5px; /* Adiciona um pequeno espaço entre o ícone e o texto */
+}
+
 
