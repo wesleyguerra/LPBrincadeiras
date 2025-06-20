@@ -166,11 +166,10 @@ body {
     left: 100%;
 }
 
-/*/* Seção de Introdução */
+/* Seção de Introdução */
 .intro-section {
     padding: 0 0 60px 0;
     background: #f8f9fa;
-}
 }
 
 .intro-hero {
@@ -913,4 +912,5 @@ body {
         margin: 10px auto;
     }
 }
+
 
